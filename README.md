@@ -65,6 +65,8 @@ For users who want a frictionless experience without manual file-shuffling, Alet
 5. **Stored Locally:** The Binder automatically generates slugs, stamps timestamps, and saves the file directly into your `knowledge/` directory.
 6. **Query with The Librarian:** Load 'librarian.md' as a seperate persona and then switch over to it in order to search, query, and converse with your living archive (may require revectorizing database, see https://docs.sillytavern.app/usage/core-concepts/data-bank/)
 
+If you need it, there is a "For Dummies" guide on using the SillyTavern Extension: [ST4dum](./guides/ST4dum.md) 
+
 ## PLEASE BE AWARE THAT THE PYTHON SCRIPT FOR THE EXTENSION IS DIFFERENT FROM THE ONE IN THE MAIN RELEASE!!!
 
 ---
