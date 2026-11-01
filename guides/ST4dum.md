@@ -1,6 +1,6 @@
 # Using the SillyTavern Extension for Dummies
 
-This is a very informal guide on how to use the SillyTavern extension for Alethia. These are the steps I personally took and tested. **Your mileage may vary (YMMV).**
+This is a very informal guide on how to use the SillyTavern extension for Aletheia. These are the steps I personally took and tested. **Your mileage may vary (YMMV).**
 
 ## Installation
 
@@ -22,7 +22,7 @@ Move the `aletheia-bridge` folder into:
 SillyTavern-Launcher/SillyTavern/public/scripts/extensions/third-party/
 ```
 
-### 3\. Choose a location for the Alethia application
+### 3\. Choose a location for the Aletheia application
 
 Keep the general extension folder somewhere convenient. This is where you will run the Python application from and where the RAG database will be stored.
 
@@ -38,7 +38,7 @@ python3 -m pip install -r requirements.txt
 
 ### 5\. Run the application
 
-Start the Alethia application with:
+Start the Aletheia application with:
 
 ```
 python3 app.py
@@ -76,6 +76,19 @@ Before speaking with **The Librarian**, make sure you add your files using the *
 You can find **Data Bank** by clicking the **wand** icon in SillyTavern.
 
 > **Note:** As mentioned on the main page, you may occasionally need to re-vectorize files in the Data Bank. See the [SillyTavern Data Bank documentation](<https://docs.sillytavern.app/usage/core-concepts/data-bank/>) for more information.
+
+
+## IMPORTANT
+This project works best with models that do NOT have thinking/reasoning enabled, especially for the "Archivist" stage. It will generate unecessary words and the AI will put its own thoughts into the content.
+
+The proper way to disable thinking/reasoning can vary depending on your exact model and interface. However, for SillyTavern this seems to work:
+
+1. Go into the "AI Response Formatting" tab
+2.Go down to "Start Reply With"
+3. Enter:
+
+<think>
+</think>
 
 
 ## Quick Summary
