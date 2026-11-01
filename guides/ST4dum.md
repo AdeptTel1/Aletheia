@@ -83,8 +83,8 @@ This project works best with models that do NOT have thinking/reasoning enabled,
 
 The proper way to disable thinking/reasoning can vary depending on your exact model and interface. However, for SillyTavern this seems to work:
 
-1. Go into the "AI Response Formatting" tab
-2.Go down to "Start Reply With"
+1. Go into the "AI Response Formatting" tab.
+2. 2.Go down to "Start Reply With"
 3. Enter:
 ```
 <think>
