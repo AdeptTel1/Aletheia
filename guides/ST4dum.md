@@ -86,10 +86,11 @@ The proper way to disable thinking/reasoning can vary depending on your exact mo
 1. Go into the "AI Response Formatting" tab
 2.Go down to "Start Reply With"
 3. Enter:
-
+```
 <think>
 </think>
-
+```
+The new python app should remove empty <think> tags at the beginning of a response.
 
 ## Quick Summary
 
